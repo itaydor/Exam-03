@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="718.0603112840467" y="-30.0">EvenIntSet2</node>
+    <node x="736.0603112840467" y="-261.0">EvenIntSet1</node>
+    <node x="500.1342412451363" y="-261.0">AbstractIntSet</node>
+    <node x="507.1342412451363" y="-523.0">IntSet</node>
+    <node x="736.0603112840467" y="-751.5">SetApplication</node>
+    <node x="507.1342412451363" y="-751.5">ISet</node>
+    <node x="500.1342412451363" y="-30.0">IntSetN</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="IntSetN" target="AbstractIntSet" relationship="GENERALIZATION">
+      <point x="0.0" y="-51.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="IntSet" target="ISet" relationship="REALIZATION">
+      <point x="0.0" y="-72.5" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="EvenIntSet1" target="IntSet" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.5" />
+      <point x="802.5603112840467" y="-378.0" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="EvenIntSet2" target="AbstractIntSet" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="793.5603112840467" y="-95.0" />
+      <point x="575.6342412451363" y="-95.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="AbstractIntSet" target="IntSet" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.5" />
+      <point x="0.0" y="72.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7262023217247098" showDependencies="false" x="1090.0" y="-390.0" />
+  <SelectedNodes>
+    <node>IntSetN</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
